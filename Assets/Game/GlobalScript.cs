@@ -30,6 +30,7 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	/// All variables like this in Quest Scripts are automatically saved
 	public bool m_spokeToBarney = false;
 	
+	
 	////////////////////////////////////////////////////////////////////////////////////
 	// Global Game Functions
 	
@@ -71,6 +72,29 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	public void Update()
 	{
 		// Add anything that should happen every frame here.
+		//检测是否可以用键盘控制移动
+		if(E.Paused == false && E.GameHasKeyboardFocus && E.GetBlocked() == false && C.Plr.Moveable)
+		{
+			 // 从 Input Manager 读取水平 / 垂直轴
+			float h = Input.GetAxis("Horizontal");   // A/D、左/右箭头或手柄摇杆
+			float v = Input.GetAxis("Vertical");	 // W/S、上/下箭头或手柄摇杆
+		
+			Vector2 direction = new Vector2(h, v);
+		
+			// 有输入才处理（使用平方长度避免开根号）
+			if (direction.sqrMagnitude > 0.001f)
+			{
+				// 归一化，防止斜向速度更快
+				direction.Normalize();
+		
+				// 计算目标位置：当前位置 + 方向 * 行走距离
+				Vector2 targetPos = C.Plr.Position + direction * 2.0f;
+		
+				// 触发行走
+				E.ProcessClick(eQuestVerb.Walk, null, targetPos);
+			}
+		}
+		
 	}	
 
 	/// Called every frame, even when paused. Non-blocking functions only
