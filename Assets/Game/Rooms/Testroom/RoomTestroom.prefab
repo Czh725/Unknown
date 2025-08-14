@@ -66,12 +66,18 @@ PolygonCollider2D:
       - {x: -792.79504, y: 33.961002}
       - {x: -791.788, y: -109.69701}
       - {x: -496.74603, y: -111.066}
-    - - {x: -270.18802, y: 56.994003}
-      - {x: -402.971, y: 58.036003}
-      - {x: -401.6021, y: -49.46666}
-      - {x: -250.2946, y: -48.097763}
+    - - {x: -250.294, y: -48.097004}
       - {x: -244.81902, y: 58.036003}
-      - {x: -270.18802, y: 58.036003}
+      - {x: -402.971, y: 58.036003}
+      - {x: -401.60202, y: -49.466003}
+    - - {x: 664.835, y: -788.54205}
+      - {x: 658.341, y: -782.04706}
+      - {x: 658.341, y: -772.86304}
+      - {x: 664.835, y: -766.369}
+      - {x: 674.02, y: -766.369}
+      - {x: 680.51404, y: -772.86304}
+      - {x: 680.51404, y: -782.04706}
+      - {x: 674.02, y: -788.54205}
 --- !u!114 &4861354059331185026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,7 +144,7 @@ MonoBehaviour:
     m_animation: BackGround
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: 0
+    m_baseline: 544.5509
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -218,7 +224,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -40
+  m_SortingOrder: -5486
   m_Sprite: {fileID: 21300000, guid: f79b64ce7593dc546aa54c6268737aeb, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -290,7 +296,9 @@ MonoBehaviour:
     m_shortName: Testroom
     m_scriptClass: RoomTestroom
     m_sceneName: SceneRoomTestroom
-    m_points: []
+    m_points:
+    - m_name: SpawnPoint
+      m_position: {x: -897.9678, y: -147.85815}
   m_debugStartFunction: 
   m_hotspotComponents: []
   m_propComponents:
@@ -442,7 +450,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -3128
   m_Sprite: {fileID: 21300000, guid: c6786e5254d7b2449aad8cb0f40b3a30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

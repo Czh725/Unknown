@@ -47,6 +47,10 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	/// Blocking script called whenever you enter a room, before fading in. Non-blocking functions only
 	public void OnEnterRoom()
 	{
+		// OnEnterRoom(BG)  —— 第一次进入房间时（背景淡入之前）调用
+		//如果有spawnpoint就设置出生点
+		if(Point("SpawnPoint") != null)
+			C.Player.Position = Point("SpawnPoint");
 	}
 
 	/// Blocking script called whenever you enter a room, after fade in is complete
