@@ -775,7 +775,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7609255342820622757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -113, y: -6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7904421728425760977}
@@ -801,10 +801,10 @@ MonoBehaviour:
     m_animation: Back
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -436.32324
+    m_baseline: 480.14236
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
-    m_lookAtPoint: {x: 0, y: 0}
+    m_lookAtPoint: {x: 260.9627, y: 16.019321}
     m_scriptName: Back
   m_parallaxDepth: 0
   m_parallaxAlignment: {x: 0, y: 0}
@@ -881,7 +881,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4363
+  m_SortingOrder: -4741
   m_Sprite: {fileID: 21300000, guid: f79b64ce7593dc546aa54c6268737aeb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1211,7 +1211,7 @@ MonoBehaviour:
     m_animation: ForegroundL
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -499.5584
+    m_baseline: 312.84927
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -1291,7 +1291,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4996
+  m_SortingOrder: -3128
   m_Sprite: {fileID: 21300000, guid: c6786e5254d7b2449aad8cb0f40b3a30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

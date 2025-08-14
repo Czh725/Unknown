@@ -89,10 +89,15 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 		
 				// 计算目标位置：当前位置 + 方向 * 行走距离
 				Vector2 targetPos = C.Plr.Position + direction * 2.0f;
-		
+				
+
 				// 触发行走
 				E.ProcessClick(eQuestVerb.Walk, null, targetPos);
 			}
+			else
+			{
+				E.ProcessClick(eQuestVerb.Walk, null, C.Plr.Position); // 如果不输入停下
+            }
 		}
 		
 	}	

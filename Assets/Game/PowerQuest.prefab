@@ -104,6 +104,7 @@ MonoBehaviour:
   - {fileID: 114107578643181592, guid: 815776d2d5a9623498c61578ffc4c1cc, type: 3}
   - {fileID: 6196424509843328463, guid: 1680f35a1ce05e540b1b8666d63fe804, type: 3}
   m_characterPrefabs:
+  - {fileID: 5032076388503183547, guid: fe0454f230d9ea7428d27b8f2f74c02c, type: 3}
   - {fileID: 114953134120639602, guid: b4910caf4195aeb45895069ad277b9fd, type: 3}
   - {fileID: 114894982771319608, guid: 65de018bf92bf6a4088d8c3f977119e7, type: 3}
   m_guiPrefabs:

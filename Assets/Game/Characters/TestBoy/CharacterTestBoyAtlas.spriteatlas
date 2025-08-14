@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RoomTestroomAtlas
+  m_Name: CharacterTestBoyAtlas
   serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
@@ -32,26 +32,14 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: d870a5372d5042f45bb20053589dc9d3, type: 3}
+    - {fileID: 102900000, guid: 136419b92872ea24e9a7d6a0f4b4911f, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: c6786e5254d7b2449aad8cb0f40b3a30, type: 3}
-  - {fileID: 21300000, guid: 61eba3a3e8ed9ac459a9014863850ad7, type: 3}
-  - {fileID: 21300000, guid: f23af6553dfd6e948ac6e71d388061bb, type: 3}
-  - {fileID: 21300000, guid: 99563957095d0384893170ae7addebc6, type: 3}
-  - {fileID: 21300000, guid: f1d3388eb5c708e46b32de0bf1c904ee, type: 3}
-  - {fileID: 21300000, guid: f79b64ce7593dc546aa54c6268737aeb, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - ForegroundL
-  - p_0
-  - p_3
-  - p_1
-  - p_2
-  - Back_0
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_RenderDataMap: {}
-  m_Tag: RoomTestroomAtlas
+  m_Tag: CharacterTestBoyAtlas
   m_IsVariant: 0
   m_IsPlaceholder: 0

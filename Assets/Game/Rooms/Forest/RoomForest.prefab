@@ -1668,8 +1668,8 @@ MonoBehaviour:
     m_playerOnly: 0
     m_tint: {r: 1, g: 1, b: 1, a: 0}
     m_fadeDistance: 0
-    m_scaleTop: 0.8
-    m_scaleBottom: 1.5
+    m_scaleTop: 1
+    m_scaleBottom: 1
     m_scriptName: Scale
 --- !u!60 &6492942074211798063
 PolygonCollider2D:
