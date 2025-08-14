@@ -229,4 +229,10 @@ public class RoomForest : RoomScript<RoomForest>
 		
 		yield return E.Break;
 	}
+
+	IEnumerator OnUseInvHotspotSky( IHotspot hotspot, IInventory item )
+	{
+
+		yield return E.Break;
+	}
 }
